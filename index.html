@@ -1,7 +1,359 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Apurba Mahanta</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112949402-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112949402-1');
+    </script>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#achievments">Achievments</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+             <img  src="images/profile.jpg" alt="" height="250"/>
+            <h2>Apurba Mahanta</h2>
+            <h2>MS CSE Graduate Student | Distributed Systems | Machine Learning | Full Stack Development</h2>
+            <!--<a href="#" class="btn-rounded-white">Download Resume</a>-->
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I'm a Computer Science Graduate student at University at Buffalo. I am passionate about the field of Distributed Systems and Artificial Intelligence and its application in Natural Language Processing and Computer Vision.
+                        Prior to this I have three years of experience in software development using core java,j2ee frameworks, python, big data technologies in hadoop, spark, hive, impala and web technologies in ext js and angular js. 
+                        As a Senior technology associate at Sapient, I was responsible for leading the development for three major products for our client Morgan Stanley which contributed to growth of the entire risk infrastructure at the firm. The big data platform ingested terabytes of risk data files every day into hdfs. Data loading timings improved massively loading 400 million rows under 4 minutes. The data aggregation framework final build was able to provide 30% more throughput consuming 50% less memory 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="July 2015 – June 2018">
+                <h3>Publicis Sapient (Technology Consultant at Morgan Stanley)</h3>
+                <h4>Senior Associate Technology L1</h4>
+                <p>&#8226; Developed the data ingestion framework with a very performant / scalable code running on top of Big Data platforms (Spark/Hive/Impala/Hadoop) that ingests terabytes of files every day into hdfs. Data loading timings improved massively loading 400 million rows under 4 minutes. Impala query timings was also 2.9x faster than Greenplum for analytical queries.</p>
+                <p>&#8226; Revamped legacy data aggregation framework used in Risk Tech in order to make it scalable, maintainable and improve overall throughput. Apart from rewriting the entire code, performed analysis of GC logs to tweak JVM Args, leveraging JProfiler/VisualVM to identify hotspots in code. Final build was able to provide 30% more throughput consuming 50% less memory.</p>
+                <p>&#8226; Developed a data extractor micro-service tool that evaluates a consumer’s subscription, generates dynamic queries and de- livers data to the consumer which led to overall reduction in infra cost.</p>
+                <p>&#8226; Implemented a restful webservice and platform to provide a heat map view of the entire data processing and delivery status which was a one stop place for the production management team to monitor all the processing.</p>
+            </div>
+        </div>
+       <!-- </div> -->
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University at Buffalo</h3>
+            <span class="education-date">Aug 2018 - Dec 2019</span>
+            <h4>Master of Science</h4>
+            <ul>
+            <li>
+                Computer Science | GPA 3.46/4
+            </li>
+            <li>
+                Course Work: Machine Learning, Computer Vision and Image Processing, Algorithms, Computer Security, Distributed Systems, Data Intensive Computing, Advance Machine Learning
+            </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Vellore Institute of Technology</h3>
+            <span class="education-date">July 2011 - May 2015</span>
+            <h4>Bachelor of Technology</h4>
+            <ul>
+                <li>
+                    Computer Science and Engineering | GPA 8.48/10
+                </li>
+                <li>
+                    Course Work: Computer Programming and Problem Solving, Data Structure and Algorithms, Operating Systems, Database Systems,Embedded Systems
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project no-image">
+                    <div class="project-info">
+                        <h3>Distributed key value storage on Android(Amazon Dynamo)</h3>
+                            <ul>
+                                <li>
+                                    Implemented a failure resilient distributed key-value storage inspired by Amazon Dynamo that provides Linearizability and availability. Java, Android, Socket Programming, Linearizability.
+
+                                </li>
+                                
+                            </ul>
+                    </div>
+                </div>
+                <div class="project no-image">
+                    <div class="project-info">
+                        <h3>Distributed Hashtable on Android</h3>
+                            <ul>
+                                <li>
+                                    Implemented a distributed hash-table based on Chord that provides node joins, ID space partitioning and ring based routing. Java, Android, Socket Programming, Chord .
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="project no-image">
+                    <div class="project-info">
+                        <h3>Group Messenger Application</h3>
+                            <ul>
+                                <li>
+                                    Implemented a group messenger system using ISIS algorithm while maintaining FIFO and Total ordering with a local persistent key value storage .Features include scalability, reliability and fault tolerance.
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="project no-image">
+                    <div class="project-info">
+                        <h3>Data Analytics Pipeline using Apache Spark Python</h3>
+                            <ul>
+                                <li>
+                                    Implemented data acquisition & analytics pipeline to fetch articles using NY-Times API. Used Hadoop MapReduce and Apache Spark to build article classification model.
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="project no-image">
+                    <div class="project-info">
+                        <h3>Handwritten data recognition in forensics</h3>
+                            <ul>
+                                <li>
+                                    Developed an Explainable AI system based on Bayesian Inference model and Deep learning models (Autoencoder and Siamese network) to distinguish between same and different writers.
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="project no-image">
+                    <div class="project-info">
+                        <h3>Hierarchical Variational Autoencoder for Music</h3>
+                            <ul>
+                                <li>
+                                    Developed a generative novel model on Hierarchical Variational Autoencoder based on Google Magneta’s work for music interpolation between  music melodies .
+                                </li>
+                                <li class="email"></i><a href="https://medium.com/@musicvaeubcse/musicvae-understanding-of-the-googles-work-for-interpolating-two-music-sequences-621dcbfa307c">Medium Blog</a></li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="project no-image">
+                    <div class="project-info">
+                        <h3>Digit Classification with Deep Learning</h3>
+                            <ul>
+                                <li>
+                                    Implemented Softmax Regression, Vanilla Neural Network and Convolutional Neural Network models and trained on MNIST dataset.     
+                                </li>
+                                <li>
+                                    Compared the performance of all models by training and validating them on MNIST dataset. Also proved the ‘No free lunch theorem’ by validated the performance on USPS dataset.
+                                </li>
+                            </ul>
+                        <!--<a href="#">View Project</a>-->
+                    </div>
+
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project no-image">
+                    <div class="project-info">
+                        <h3>Reinforcement Learning using Deep Q Network</h3>
+                            <ul>
+                                <li>
+                                    Combined reinforcement learning and deep learning techniques to teach the agent to navigate in the grid-world environment.
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+
+                <!--<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>-->
+                    <!-- End .project-image -->
+                    <div class="project no-image">
+                    <div class="project-info">
+                        <h3>Key point detection and Hough Transform</h3>
+                        <ul>
+                            <li>
+                                Implemented keypoint detection using SIFT algorithm from a given set of images from scratch.
+                            </li>
+                            <li>
+                                Implemented hough transform algorithm from scratch to detect lines and circular objects from a given set of images.
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Scala</li>
+            <li>C++</li>
+            <li>SQL</li>
+            <li>HADOOP</li>
+            <li>Android</li>
+            <li>Machine Learning</li>
+            <li>Javascript</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id = "achievment" class="background-alt">
+        <h2 class ="heading">Achievments</h2>
+        <div class = "achievment-block">
+        <ul>
+            <li>
+                Awarded with Best Debutante of the year 2015 award, Client Focused Delivery award for Q1 2016 and Core Value Relationships award for Q1 2017.
+            </li>
+            <li>
+                Got promoted to Associate Technology L2 after 1 year and Senior Associate Technology L1 after 2 years of joining for excellent work quality and constant aggressive releases.
+            </li>
+        </ul>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/apurba5964@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <script>
+                var contactform =  document.getElementById('contact-form');
+                contactform.setAttribute('action', '//formspree.io/' + 'apurba5964' + '@' + 'gmail' + '.' + 'com');
+            </script>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2019 Apurba Mahanta
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/apurba5964"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/apurba.mahanta.14"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/apurba-mahanta/" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        
+                             <li class="resume"><i class="fa fa-file-pdf-o"></i><a href="resume.pdf" target="_blank">Resume</a></li>
+                             <li class="email"></i><a href="mailto: apurba5964@gmail.com">apurba5964@gmail.com</a></li>
+
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
